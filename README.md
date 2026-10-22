@@ -2,7 +2,7 @@
 
 A cinematic, scroll-driven 3D website for a fictional AI energy orb called **AETHER**. Scroll forward and the orb awakens, opens into floating components, becomes a glowing neural network, travels through a digital universe, and reforms in a final reveal. Scroll back and the story plays in reverse.
 
-**Live demo:** 
+**Live demo:** https://smiling-coder.github.io/Aether-Beyond-the-Screen/
 
 ## Features
 
