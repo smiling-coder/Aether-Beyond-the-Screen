@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AETHER — Beyond the Screen</title>
+<meta name="description" content="AETHER: a new dimension of intelligence. A scroll-driven 3D experience.">
+<meta name="theme-color" content="#02030a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500&family=Figtree:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><span>AETHER</span></div>
+<canvas id="stage" aria-hidden="true"></canvas>
+<div class="fallback-orb" aria-hidden="true"></div>
+
+<main>
+  <section class="t low" data-in="0" data-out="0.09">
+    <h1>THE FUTURE IS NOT A SCREEN.</h1>
+    <p class="sub">Meet AETHER. A new dimension of intelligence.</p>
+    <p class="hint"><span></span>SCROLL TO ENTER THE FUTURE</p>
+  </section>
+
+  <section class="t side" data-in="0.11" data-out="0.25">
+    <h2>Every revolution begins with a spark.</h2>
+  </section>
+
+  <section class="t low" data-in="0.28" data-out="0.41">
+    <h2>Intelligence. Reimagined.</h2>
+  </section>
+
+  <section class="t side right" data-in="0.44" data-out="0.6">
+    <h2>The digital mind</h2>
+    <ul>
+      <li class="u" data-in="0.46" data-out="0.6">Understands your world</li>
+      <li class="u" data-in="0.50" data-out="0.6">Adapts to your needs</li>
+      <li class="u" data-in="0.54" data-out="0.6">Connects ideas instantly</li>
+    </ul>
+  </section>
+
+  <section class="t low" data-in="0.64" data-out="0.78">
+    <h2>Your imagination is the only limit.</h2>
+  </section>
+
+  <section class="t low cta-wrap" data-in="0.9" data-out="1.2">
+    <h2>THE NEXT DIMENSION IS HERE.</h2>
+    <a class="cta" id="cta" href="#top">EXPLORE AETHER</a>
+  </section>
+</main>
+
+<div id="spacer"></div>
+<div id="progress" aria-hidden="true"><i></i></div>
+
+<noscript><p style="position:fixed;top:45%;width:100%;text-align:center;color:#9fd">AETHER needs JavaScript to run.</p></noscript>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
